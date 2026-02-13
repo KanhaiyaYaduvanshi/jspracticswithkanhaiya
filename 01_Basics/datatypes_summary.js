@@ -47,4 +47,31 @@ console.log(typeof heros);//object(array)
 console.log(typeof myObj);//onject
 console.log(typeof myfunction);//function
 
+//****************Memory******************* */
+//two types Stack & Heap
+//Stack - uses In Primitive Datatypes
+//changes is happend in copy not in original
+
+
+
+//Heap - for Non-Premitive Datatypes
+//changes happens in reference means in original data
+
+let myYoutubename = "kalyug_ka_kavi_1"
+let anotherName = "kanhaiya_yaduvanshi"
+console.log(anotherName);//kanhaiya_yaduvanshi
+console.log(myYoutubename);//kalyug_ka_kavi_1
+
+
+
+let user = {
+    email: "user@gmail.com",
+    upi: "iahgyugh"
+}
+let user2 = user
+
+user2.email = "kanhaiya@google.com"
+
+console.log(user.email);//kanhaiya@google.com
+console.log(user.email);//kanhaiya@google.com
 
