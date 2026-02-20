@@ -1,7 +1,6 @@
-// singleton(object from constructor)
-//Object.create
 
 
+//non singleton objects
 // object literals
 
 const mySym = Symbol("key1")
